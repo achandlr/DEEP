@@ -123,11 +123,11 @@ python src\utils\Benchmarking.py
 ### Benchmarking Results
 Below are the early Benchmarking results of training Ensemblers on the AggreFact Benchmark and testing on the Halu-Eval Summarization dataset.
 <div style="border: 1px solid black; padding: 10px; text-align: left;">
-    <img src="data\\visualizations\\BenchmarkingResults.png" alt="Benchmarking Results" style="border: 1px solid black; width: 50%; height: auto;"/>
+    <img src="data\\visualizations\\BenchmarkingResults.png" alt="Benchmarking Results" style="border: 1px solid black; width: 80%; height: auto;"/>
 </div>
 
 <div style="border: 1px solid black; padding: 10px; text-align: left;">
-    <img src="data\\visualizations\\ComparingSOTA.png" alt="Comparing SOTA" style="border: 1px solid black; width: 50%; height: auto;"/>
+    <img src="data\\visualizations\\ComparingSOTA.png" alt="Comparing SOTA" style="border: 1px solid black; width: 80%; height: auto;"/>
 </div>
 
 ## Contributing
