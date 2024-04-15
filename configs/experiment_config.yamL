@@ -1,0 +1,26 @@
+train_test_combinations:
+  - train_origin:
+      - HALU_EVAL_SUMMARIZATION
+      - TOFU_EVAL_MEETING_BANK_SUMMARIZATION
+      - TOFU_EVAL_MEDIA_SUM_SUMMARIZATION
+    test_origin:
+      - AGGREFACCT_SOTA_XSUM_TEST
+  - train_origin:
+      - AGGREFACCT_SOTA_XSUM_TEST
+      - TOFU_EVAL_MEETING_BANK_SUMMARIZATION
+      - TOFU_EVAL_MEDIA_SUM_SUMMARIZATION
+    test_origin:
+      - HALU_EVAL_SUMMARIZATION
+  - train_origin:
+      - HALU_EVAL_SUMMARIZATION
+      - AGGREFACCT_SOTA_XSUM_TEST
+    test_origin:
+      - TOFU_EVAL_MEDIA_SUM_SUMMARIZATION
+  - train_origin:
+      - HALU_EVAL_SUMMARIZATION
+      - AGGREFACCT_SOTA_XSUM_TEST
+    test_origin:
+      - TOFU_EVAL_MEETING_BANK_SUMMARIZATION
+# Note: One needs to add their own prompt sets to this yaml file for Benchmarking.py to run
+calibration_configs:
+  perform_calibration: true

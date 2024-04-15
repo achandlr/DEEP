@@ -1,0 +1,12 @@
+{
+    "models_in_use": {
+        "use_dawid_skene_models": true,
+        "use_sklearn_models": true,
+        "use_novel_methods": false,
+        "use_snorkel_models": true,
+        "use_lgb_models": true,
+        "use_pytorch_models": false,
+        "use_GAM_models": false,
+        "use_ml_lense": false
+    }
+}
