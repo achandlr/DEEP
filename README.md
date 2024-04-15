@@ -43,7 +43,7 @@ In addition to creating a meaningful correlation between predicted and actual pr
 ## Calibration Visualization
 <div style="border: 1px solid black; padding: 10px;">
     <div style="display: flex; justify-content: flex-start;">
-        <img src="data\\visualizations\\ReliabilityDiagram.png" alt="Calibrated Model" style="border: 1px solid black; width: 30%; margin: 5px;">
+        <img src="data\\visualizations\\ReliabilityDiagram.png" alt="Calibrated Model" style="border: 1px solid black; width: 100%; margin: 5px;">
     </div>
 </div>
 
@@ -56,10 +56,10 @@ Our novel benchmarking of state-of-the-art factual consistency models highlights
 
 <div style="border: 1px solid black; padding: 0; display: flex;">
     <div style="margin-right: 5px; border-right: 1px solid black;">
-        <img src="data\\visualizations\\EncoderModelsPerformance.png" alt="Encoder Models Performance" style="width: 100%; height: 600px;">
+        <img src="data\\visualizations\\EncoderModelsPerformance.png" alt="Encoder Models Performance" style="width: 100%; height: auto;">
     </div>
     <div>
-        <img src="data\\visualizations\\OptimalThresholdsPerDataset.png" alt="Optimal Thresholds Per Dataset" style="width: 100%; height: 600px;">
+        <img src="data\\visualizations\\OptimalThresholdsPerDataset.png" alt="Optimal Thresholds Per Dataset" style="width: 100%; height: auto;">
     </div>
 </div>
 
