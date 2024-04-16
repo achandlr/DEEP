@@ -11,7 +11,7 @@ This repository contains an extensive set of ensembling methods for the binary c
 
 Our framework achieves **state-of-the-art** (SOTA) balanced accuracy on the **AggreFact-XSUM FTSOTA**, **TofuEval Summary-Level**, and **HaluEval Summarization** benchmarks in detecting factual errors within transformer-generated text summaries. It does so without any fine-tuning of the language model or reliance on thresholding techniques not available in practical settings.
 
-It features over 40 different ensembling methods, categorized as follows:
+It features over 16 different ensembling methods, categorized as follows:
 
 - **Linear Models**: LogisticRegression, LDA
 
@@ -121,7 +121,6 @@ python src\utils\Benchmarking.py
 (Replace python with python3 if you are on macOS/Linux and if python does not point to Python 3.x)
 
 ### Benchmarking Results
-Below are the early Benchmarking results of training Ensemblers on the AggreFact Benchmark and testing on the Halu-Eval Summarization dataset.
 <div style="border: 1px solid black; padding: 10px; text-align: left;">
     <img src="data\\visualizations\\BenchmarkingResults.png" alt="Benchmarking Results" style="border: 1px solid black; width: 80%; height: auto;"/>
 </div>
