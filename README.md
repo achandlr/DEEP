@@ -25,7 +25,8 @@ It features over 16 different ensembling methods, categorized as follows:
 - **Other Methods**: Support Vector Machines, Nearest Neighbors, Naive Bayes (BernboulliNB) 
 
 ## Datasets in Use
-This project uses the AggreFact SOTA Benchmark and Halu-Eval dataset for evaluating factual consitency and identifying halucinations.
+### Releasing Dataset
+To enhance reproducibility, we have made our dataset accessible through HuggingFace, available at [this link](https://huggingface.co/datasets/achandlr/FactualConsistencyScoresTextSummarization). This dataset integrates AggreFact SOTA Benchmark, Halu-Eval Summarization, and TofuEval datasets, designed for assessing factual consistency and detecting hallucinations in text summarization. Additionally, we provide encoder scores for the summaries within this dataset. We are releasing these scores because many GitHub repositories for earlier encoder models depend on outdated libraries that are no longer maintained.
 
 The AggreFact SOTA benchmark [Tang 2023 Understanding](https://arxiv.org/pdf/2205.12854.pdf) is specialized for evaluating the factual consistency of generated text summaries. It consists of three main elements: a summary, a context, and a label indicating whether the summary contains any factual inconsistencies that are not supported by the context. The dataset is derived from an aggregation of nine existing annotated factuality datasets, where existing scores for each dataset are initially binary or converted from different annotation schemes to binary.
 
@@ -62,9 +63,6 @@ Our novel benchmarking of state-of-the-art factual consistency models highlights
         <img src="data\\visualizations\\OptimalThresholdsPerDataset.png" alt="Optimal Thresholds Per Dataset" style="width: 100%; height: auto;">
     </div>
 </div>
-
-
-
 
 
 # Creating a Virtual Environment
